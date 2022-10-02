@@ -9,4 +9,9 @@
     <string name="login_name">nom de connexion</string>
     <string name="password">mot de passe</string>
     <string name="switch_name">Qu’est-ce que cela fait?</string>
+    <string name="dialog_message">Voulez-vous terminer l\'activité?</string>
+    <string name="dialog_title">Terminer l\'activité</string>
+    <string name ="okButton">D\'accord</string>
+    <string name ="cancelButton">Annuler</string>
+    <string name ="my_information">Mes informations à partager</string>
 </resources>
