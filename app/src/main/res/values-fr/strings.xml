@@ -14,4 +14,6 @@
     <string name ="okButton">D\'accord</string>
     <string name ="cancelButton">Annuler</string>
     <string name ="my_information">Mes informations à partager</string>
+    <string name ="start_chat">Démarrer la discussion</string>
+    <string name="sendText">Envoyer</string>
 </resources>

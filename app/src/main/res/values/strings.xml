@@ -10,7 +10,9 @@
     <string name="switch_name">What does this do?</string>
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="dialog_title">Finish The Activity</string>
-    <string name ="okButton">Ok</string>
-    <string name ="cancelButton">Cancel</string>
-    <string name ="my_information"> My information to share</string>
+    <string name="okButton">Ok</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="my_information"> My information to share</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="sendText">Send</string>
 </resources>
