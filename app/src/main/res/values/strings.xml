@@ -15,4 +15,10 @@
     <string name="my_information"> My information to share</string>
     <string name="start_chat">Start Chat</string>
     <string name="sendText">Send</string>
+    <string name="testToolbar">Test Toolbar</string>
+    <string name="title_activity_test_toolbar">Test Toolbar</string>
+    <string name="back">Do you want to go back?</string>
+    <string name="newMessage">New message</string>
+
+
 </resources>

@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button buttonMain = (Button) findViewById(R.id.button);
         Button chatButton = (Button) findViewById(R.id.button2);
+        Button startToolbar = (Button) findViewById(R.id.test_toolbar);
         chatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,6 +34,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent,10);
+            }
+        });
+        startToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(intent);
             }
         });
     }
