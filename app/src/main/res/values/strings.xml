@@ -19,6 +19,7 @@
     <string name="title_activity_test_toolbar">Test Toolbar</string>
     <string name="back">Do you want to go back?</string>
     <string name="newMessage">New message</string>
-
+    <string name="weather">Weather</string>
+    <string name="delete_message">Delete this Message</string>
 
 </resources>

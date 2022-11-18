@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button buttonMain = (Button) findViewById(R.id.button);
         Button chatButton = (Button) findViewById(R.id.button2);
         Button startToolbar = (Button) findViewById(R.id.test_toolbar);
+        Button startWeather = (Button) findViewById(R.id.weather_launch);
         chatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(intent);
+            }
+        });
+        startWeather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url ="https://api.openweathermap.org/data/2.5/weather?q=ottawa,ca&APPID=79cecf493cb6e52d25bb7b7050ff723c&mode=xml&units=metric";
+                Intent intent = new Intent(MainActivity.this,WeatherForecast.class);
+                intent.putExtra("url", url);
                 startActivity(intent);
             }
         });

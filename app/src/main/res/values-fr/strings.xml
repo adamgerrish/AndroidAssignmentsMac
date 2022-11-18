@@ -20,4 +20,6 @@
     <string name="title_activity_test_toolbar">Barre d\'outils de testr</string>
     <string name="back">Voulez-vous revenir en arrière ?</string>
     <string name="newMessage">Nouveau message</string>
+    <string name="weather">Météo</string>
+    <string name="delete_message">Supprimer ce Message</string>
 </resources>
